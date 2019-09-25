@@ -24,10 +24,10 @@ You will need the following to use this module:
 ## Getting started
 You will need to first install the ZWaveDriver-unsigned.modl into Ignition. The module is unsigned and requires that Ignition is in developer mode or setup to allow installation of unsigned modules. You can simply add a switch to your ignition.conf file to allow installation of unsigned modules. Open your ignition.conf configuration file:
 
-Windows
+Windows  
 `C:\Program Files\Inductive Automation\Ignition\data\ignition.conf`
 
-Linux
+Linux  
 `\var\lib\ignition\data\ignition.conf`
 
 Add an additonal Java parameter in the 'Java Additional Parameters' section below the first parameter:
@@ -41,10 +41,10 @@ Once installed and running, you will need to configure the Z-Wave Driver Module 
 ### Port
 The port where your device is connected on your Ignition server. Z-Wave sticks will generally be /dev/ttyACM0 and GPIO hats will generally be /dev/ttyAMA0.
 
-Windows
+Windows  
 `COM3`
 
-Linux
+Linux  
 `/dev/ttyACM0`
 
 ### Network Key
